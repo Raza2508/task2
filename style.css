@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('Poppins.ttf') format('ttf');
+  }
+
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0px;
+}
+
+.colorDiv{
+    padding: 50px;
+    background-color: navajowhite;
+}
+
+#header #logo{
+    width: 150px;
+}
+
+.subHeading{
+    text-align: center;
+    font-size: 35px;
+    color: #f91a40;
+}
+
+.leftDiv{
+    width: 40%;
+    display: inline-block;
+}
+
+.rightDiv{
+    width: 55%;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.rightDiv .subHeading{
+    text-align: left;
+}
+
+#contactBtn{
+    background-color: #f91a40;
+    padding: 15px 40px;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50px;
+}
